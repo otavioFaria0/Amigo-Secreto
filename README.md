@@ -1,53 +1,53 @@
-# Amigo Secreto
+# Secret Santa Game
 
-## Descrição
-Projeto web desenvolvido em JavaScript para simular um jogo de Amigo Secreto.  
-O usuário pode adicionar nomes, removê-los com um clique, embaralhar os participantes e realizar um sorteio automático, garantindo que todos participem sem repetições indevidas.
+## Overview
+This project is a web-based Secret Santa game developed using JavaScript. It allows users to add participants, remove them dynamically, shuffle the list, and perform an automated draw that assigns each participant to another in a closed cycle.
 
-O foco principal do projeto é o treinamento de lógica de programação, manipulação de arrays e interação com o DOM, utilizando HTML e CSS apenas como ferramentas de suporte visual.
-
----
-
-## Funcionalidades
-- Adição de nomes com validação contra duplicatas
-- Remoção de nomes ao clicar diretamente sobre eles
-- Embaralhamento aleatório dos participantes
-- Sorteio automático em ciclo fechado
-- Reinicialização completa da aplicação
-- Interface visual organizada
+The main purpose of this project is to practice programming logic, data manipulation, and algorithmic thinking. HTML and CSS are used strictly as supporting tools for interface rendering, not as the core focus of the project.
 
 ---
 
-## Lógica do Sorteio
-Os nomes são armazenados em um array e embaralhados utilizando um algoritmo de randomização.  
-Após o embaralhamento, cada participante é associado ao próximo da lista, e o último é ligado ao primeiro, formando um ciclo fechado.
-
-Esse método garante:
-- Nenhuma repetição
-- Nenhuma autoatribuição
-- Sorteio consistente e justo
+## Features
+- Add participant names with validation against duplicates
+- Remove participants by clicking directly on their names
+- Shuffle participants randomly
+- Automatic Secret Santa draw using a closed-loop algorithm
+- Reset the entire application state
+- Clean and structured user interface
 
 ---
 
-## Tecnologias Utilizadas
+## Draw Logic
+Participants are stored in an array and shuffled using a randomization algorithm.  
+After shuffling, each participant is assigned to the next one in the list, while the last participant is linked back to the first.
+
+This logic ensures:
+- No participant is assigned to themselves
+- No duplicated assignments
+- A fair and consistent draw
+
+---
+
+## Technologies Used
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript (Vanilla)
 
 ---
 
-## Conceitos Praticados
-- Manipulação de arrays (push, splice, embaralhamento)
-- Eventos de clique
-- Interação com o DOM
-- Criação dinâmica de elementos HTML
-- Validação de entradas do usuário
-- Controle de estado da aplicação
-- Separação entre lógica e interface
+## Concepts Practiced
+- Programming logic and control flow
+- Array manipulation (push, splice, shuffle)
+- DOM manipulation
+- Event handling
+- Dynamic element creation
+- User input validation
+- Application state management
+- Separation between logic and presentation
 
 ---
 
-## Estrutura do Projeto
+## Project Structure
 /assets
 
 index.html
@@ -60,12 +60,13 @@ style.css
 
 ---
 
-## Objetivo do Projeto
-Projeto desenvolvido com fins educacionais para praticar lógica de programação e JavaScript puro, consolidando conceitos fundamentais que podem ser reutilizados em aplicações mais complexas.
+## Project Purpose
+This project was developed for educational purposes, focusing on strengthening core programming logic and JavaScript fundamentals.  
+The implemented logic can be reused and adapted for more complex applications involving data processing and user interaction.
 
 ---
 
 ## Otávio Faria
-GitHub: otavioFaria0 
+GitHub: otavioFaria0
 
 ---
